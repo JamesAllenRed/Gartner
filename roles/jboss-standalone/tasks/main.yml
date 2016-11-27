@@ -43,7 +43,7 @@
   become: true
 
 - name: Enable JBoss to be started at boot
-  service: name=jboss enabled=yes state=started
+  command: sudo service jboss start
   become: true
 
 - name: deploy iptables rules
