@@ -4,8 +4,8 @@ http_port: 8080
 https_port: 8443
 
 # AWS specific variables
-ec2_access_key: AKIAJAIWA3R33EVRIJMQ
-ec2_secret_key: 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
+ec2_access_key: AKIAJXP55EDCY2XKZOVQ
+ec2_secret_key: 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
 ec2_region: eu-west-1
 ec2_zone:
 ec2_image: ami-02ace471
